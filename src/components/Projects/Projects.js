@@ -40,10 +40,9 @@ function Projects() {
               imgPath={tutoring}
               isBlog={false}
               title="United Tutoring"
-              description="• Built a student-tutor platform with ReactJs and NodeJs, deployed on AWS using Docker and Elastic Beanstalk.
-              • Integrated AWS services like Cognito, S3, and DynamoDB for user authentication, storage, and data.
-              • Transitioned the application to a serverless architecture using AWS Lambda and API Gateway. Achieved the
-              first rank in the Hackathon sponsored by the state Government."
+              description="Built a student-tutor platform with ReactJs and NodeJs, deployed on AWS using Docker and Elastic Beanstalk.
+              Integrated AWS services like Cognito, S3, and DynamoDB for user authentication, storage, and data.
+              Transitioned the application to a serverless architecture using AWS Lambda and API Gateway."
               ghLink="https://github.com/Dishank-Kheni/file-tracking-system"
               technologies="Project, AWS, Docker, Cloud Formation, ReactJS, NodeJS, ExpressJS, JWT, Cognito, S3, DynamoDB, AWS Lamda, API Gateway"
             />
@@ -172,29 +171,6 @@ function Projects() {
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={padipay}
-              isBlog={false}
-              title="PadiPay"
-              description="Implemented a transactional FlutterFlow frontend combined with a robust backend utilizing NodeJS, TypeScript, ExpressJS, MongoDB, and Firebase for handling crypto-fiat operations. Deployed RESTful APIs on Heroku to ensure smooth functionality. Leveraged this project's key features to significantly contribute to Padipay's system development during the tenure."
-              ghLink="https://github.com/Dishank-Kheni/file-tracking-system"
-              // demoLink="https://chatify-49.web.app/"
-              technologies="Client, Dart, Flutter, BLoc, Geo-Location, Weather API, Customised Calender, Animation"
-            />
-          </Col> */}
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={repo2}
-              isBlog={false}
-              title="node-typescript-boilerplate-mongoose"
-              description="node-typescript-boilerplate-mongoose provides a concise and structured demonstration of an end-to-end setup for Mongoose Node.js Express applications using TypeScript. It showcases middleware, models, routes, and types, offering a complete REST API for managing User Authentication and CRUD operations on Profiles. This serves as a streamlined template for similar projects."
-              ghLink="https://github.com/Dishank-Kheni/file-tracking-system"
-              // demoLink="https://chatify-49.web.app/"
-              technologies="Dart, Flutter, BLoc, Geo-Location, Weather API, Customised Calender, Animation"
-            />
-          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -204,24 +180,9 @@ function Projects() {
               description="Crafted an academic project utilizing Flutter to create a restaurant website and mobile application. The platform allows customers to reserve tables, request orders, and seamlessly process payments through an integrated gateway. Additionally, administrative functionalities empower efficient order management for the admin team."
               ghLink="https://github.com/Dishank-Kheni/Restaurant-User.git"
               // demoLink="https://chatify-49.web.app/"
-              technologies="Project, Dart, Flutter, BLoc, Geo-Location, Weather API, Customised Calender, Animation"
+              technologies="Project, Dart, Flutter, Provider, Firebase, Firestore"
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
-         
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
